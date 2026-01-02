@@ -5,9 +5,14 @@ This is a simple ASP.NET Core Razor Pages Shopping Cart application. It allows u
 
 # Steps Taken to Build the Project
 -Created the Project
+
 -dotnet new razor -n CShoppingCart
+
 -cd CShoppingCart
+
 -dotnet run
+
+
 
 -Used the -n flag to specify the project name (CShoppingCart).
 
