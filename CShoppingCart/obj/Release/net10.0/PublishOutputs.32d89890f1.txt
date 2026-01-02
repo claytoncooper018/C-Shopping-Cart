@@ -1,7 +1,0 @@
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/CShoppingCart
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/appsettings.Development.json
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/appsettings.json
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/CShoppingCart.dll
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/CShoppingCart.deps.json
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/CShoppingCart.runtimeconfig.json
-/workspaces/C-Shopping-Cart/CShoppingCart/bin/Release/net10.0/publish/CShoppingCart.pdb
