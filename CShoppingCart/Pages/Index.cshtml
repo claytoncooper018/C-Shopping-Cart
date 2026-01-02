@@ -1,10 +1,30 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Store";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Shopping Cart Store</h1>
+
+<h2>Products</h2>
+<form method="post">
+    <button asp-page-handler="Add" asp-route-name="Apple" asp-route-price="1.50">Add Apple ($1.50)</button>
+    <button asp-page-handler="Add" asp-route-name="Banana" asp-route-price="0.99">Add Banana ($0.99)</button>
+    <button asp-page-handler="Add" asp-route-name="Orange" asp-route-price="1.25">Add Orange ($1.25)</button>
+</form>
+
+<h2>Your Cart</h2>
+@if (Model.Cart.Count == 0)
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <ul>
+    @foreach (var item in Model.Cart)
+    {
+        <li>@item.Name - @item.Quantity x $@item.Price = $@(item.Quantity * item.Price)</li>
+    }
+    </ul>
+    <p><strong>Total: $@Model.Cart.Sum(i => i.Price * i.Quantity)</strong></p>
+}
