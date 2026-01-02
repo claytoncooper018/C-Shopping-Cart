@@ -1,0 +1,5 @@
+/workspaces/C-Shopping-Cart/obj/Debug/net6.0/C-Shopping-Cart.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Shopping-Cart/obj/Debug/net6.0/C-Shopping-Cart.AssemblyInfoInputs.cache
+/workspaces/C-Shopping-Cart/obj/Debug/net6.0/C-Shopping-Cart.AssemblyInfo.cs
+/workspaces/C-Shopping-Cart/obj/Debug/net6.0/C-Shopping-Cart.csproj.CoreCompileInputs.cache
+/workspaces/C-Shopping-Cart/obj/Debug/net6.0/C-Shopping-Cart.sourcelink.json
